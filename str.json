@@ -19,7 +19,7 @@
             "name": "[parameters('storageName')]",
             "type": "Microsoft.Storage/storageAccounts",
             "apiVersion": "2019-06-01",
-            "location": "[parameters('Location')]",
+            "location": "eastus",
             "kind": "[parameters('kindofStorage')]",
             "sku": {
                 "name": "[parameters('skuName')]"}
